@@ -14,13 +14,13 @@ export const HomeNavbar = () => {
           <Link href={"/"}>
             <div className="p-4 flex items-center gap-2">
               <Image src={"/logo.svg"} height={32} width={32} alt="logo" />
-              <p className="text-xl font-semibold tracking-tight">YouTube</p>
+              <p className="text-xl font-semibold tracking-tight">NewTube</p>
             </div>
           </Link>
         </div>
 
         {/* Search Bar */}
-        <div className="flex-1 flex justify-center max-w-[720px] mx-auto">
+        <div className="flex-1 flex justify-center max-w-[720px] mx-auto ">
           <SearchInput />
         </div>
 

@@ -1,5 +1,5 @@
 const Page = () => {
-  return <div>Only Logged in users should see this</div>;
+  return <div className="bg-red-500 text-">Only Logged in users should see this</div>;
 };
 
 export default Page;
